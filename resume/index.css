@@ -1,11 +1,107 @@
 body {
+  font-family: 'Noto Sans TC', serif;
   background-color: beige;
 }
 
 .main {
-  margin: 100px 30px;
+  width: 1240px;
+  margin: 100px auto;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 6px rgba(135, 134, 134, 0.5);
 }
 
-h1 {
-  background-color: blue;
+.side {
+  width: 400px;
+  height: 1754px;
+  background-color: #000000;
+  padding: 100px 50px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.imgCircle {
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  height: 300px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.imgBox{
+
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar {
+  width: 120%;
+  height: 120%;
+  object-fit: cover;
+  object-position: -103px -35px ;
+}
+
+.name{
+  font-size: 80px;
+  font-weight: 300;
+}
+
+div> h5{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: 200;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 15px;
+}
+
+.personalData > h6{
+  font-weight: 200;
+  letter-spacing: 0.1em;
+}
+
+.signBox{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.sign{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding-top: 8px;
+  padding-left: 7px;
+  letter-spacing: 0.2em;
+}
+
+.ai{
+  border: 2px solid orange;
+  color: orange;
+}
+
+.ps{
+  border: 2px solid cyan;
+  color: cyan;
+}
+
+.xd{
+  border: 2px solid Magenta;
+  color: Magenta;
+}
+
+.tag{
+  margin: 0px auto 20px auto;
+  width: 250px;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  padding: 5px 0px;
+  font-weight: 200;
+  letter-spacing: 0.2em;
+}
+
+.train > h6{
+  font-weight: 200;
+  letter-spacing: 0.1em;
+  line-height: 1.4em;
 }
