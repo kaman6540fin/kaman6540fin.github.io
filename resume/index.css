@@ -8,13 +8,14 @@ body {
   margin: 100px auto;
   background-color: #ffffff;
   box-shadow: 3px 3px 6px rgba(135, 134, 134, 0.5);
+  display: flex;
 }
 
 .side {
-  width: 400px;
+  width: 33%;
   height: 1754px;
   background-color: #000000;
-  padding: 100px 50px;
+  padding: 80px 50px;
   text-align: center;
   color: #ffffff;
 }
@@ -104,4 +105,54 @@ div> h5{
   font-weight: 200;
   letter-spacing: 0.1em;
   line-height: 1.4em;
+}
+
+/* content */
+
+.content{
+  width: 67%;
+  padding: 80px 30px;
+  text-align: center;
+}
+
+.icon{
+  width: 70px;
+  height: 70px;
+  margin: 20px auto 20px auto;
+  font-size: 48px;
+  border: 5px solid #000000;
+  border-radius: 50%;
+  box-sizing: content-box;
+}
+
+.title{
+  width: 20%;
+  margin: 0px 30px;
+  letter-spacing: 0.1em;
+}
+
+hr{
+  display: inline-block;
+  width: 30%;
+  color: #000000;
+  opacity: unset;
+  height: 2px;
+}
+
+.wrapper{
+  display: flex;
+  margin: 0px auto;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.person{
+  margin-top: 80px;
+}
+
+.text{
+  font-size: 24px;
+  padding: 0px 50px;
+  letter-spacing: 0.05em;  
+  text-align: left;
 }
